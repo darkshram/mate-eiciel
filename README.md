@@ -1,4 +1,4 @@
-#mate-eiciel
+# mate-eiciel
 
 MATE eiciel is a Graphical editor for access control lists (ACLs) and extended
 attributes (xattr), either as an extension within Caja, or as a standalone
