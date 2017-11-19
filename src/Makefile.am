@@ -61,21 +61,21 @@ libeiciel_caja_la_SOURCES += \
 endif
 
 desktopfilesdir=@datadir@/applications
-desktopfiles_DATA=mate-eiciel.desktop
+desktopfiles_DATA=org.mate-desktop.mate-eiciel.desktop
 
 
 appdatadir = $(datarootdir)/appdata
 dist_appdata_DATA = mate-eiciel.appdata.xml
 
-mate-eiciel.desktop : mate-eiciel.desktop.in
+org.mate-desktop.mate-eiciel.desktop : org.mate-desktop.mate-eiciel.desktop.in
 	sed -e "s|@DSK_VERSION@|$(VERSION)|;s|@DSK_bindir@|$(bindir)|;s|@DSK_pkgdatadir@|$(pkgdatadir)|" $< > $@
 
 CLEANFILES = 
 
 # Since 'make' built it, 'make clean' should clean it
 # see http://sources.redhat.com/automake/automake.html#Clean
-CLEANFILES += mate-eiciel.desktop
+CLEANFILES += org.mate-desktop.mate-eiciel.desktop
 
 EXTRA_DIST= \
-	mate-eiciel.desktop.in \
+	org.mate-desktop.mate-eiciel.desktop.in \
 	mate-eiciel.appdata.xml
