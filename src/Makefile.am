@@ -64,7 +64,7 @@ desktopfilesdir=@datadir@/applications
 desktopfiles_DATA=org.mate-desktop.mate-eiciel.desktop
 
 
-appdatadir = $(datarootdir)/appdata
+appdatadir = $(datarootdir)/metainfo
 dist_appdata_DATA = mate-eiciel.appdata.xml
 
 org.mate-desktop.mate-eiciel.desktop : org.mate-desktop.mate-eiciel.desktop.in
