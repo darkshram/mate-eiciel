@@ -6,10 +6,11 @@ utility.
 
 It's based on Eiciel by Roger Ferrer (http://rofi.roger-ferrer.org/eiciel/).
 
-Source code has benn modified to allow mate-eiciel to coexist with the 
+Source code has been modified to allow mate-eiciel to coexist with the 
 original eiciel.
 
-Currently has some code to build with Gtk2 in case you have a Gtk2 MATE Desktop, but it will be removed in a future release.
+Currently has some code to build with Gtk2 in case you have a Gtk2 MATE Desktop,
+but it will be removed in a future release.
 
 FAQ
 ---
