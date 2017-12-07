@@ -130,7 +130,7 @@ msgstr "Imposible modificar la entrada de ACL:"
 
 #: src/eiciel_main_controller.cpp:516
 msgid "Are you sure you want to remove all ACL default entries?"
-msgstr "¿Seguro que desea eliminar todas las entradas de ACL prederminada?"
+msgstr "¿Seguro que desea eliminar todas las entradas de ACL por defecto?"
 
 #: src/eiciel_main_window.cpp:26
 msgid "<b>Current participants in ACL</b>"
