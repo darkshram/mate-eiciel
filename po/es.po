@@ -20,7 +20,7 @@ msgstr "<b>Nombre de archivo</b>"
 
 #: src/eiciel_container.cpp:27 src/eiciel_container.cpp:183
 msgid "No file opened"
-msgstr "No hay archivo alguno abierto"
+msgstr "Sin archivo alguno abierto"
 
 #: src/eiciel_container.cpp:30 src/eiciel_container.cpp:192
 #: src/eiciel_container.cpp:194
