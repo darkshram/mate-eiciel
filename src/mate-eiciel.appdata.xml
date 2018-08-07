@@ -2,7 +2,7 @@
 <!-- Copyright 2014 Roger Ferrer <rofirrim@gmail.com> -->
 <!-- Copyright 2017 Joel Barrios <darkshram@gmail.com> -->
 <component type="desktop-application">
- <id>mate-eiciel</id>
+ <id>mate-eiciel.desktop</id>
  <metadata_license>CC0-1.0</metadata_license>
  <project_license>GPL-2.0+</project_license>
  <name>MATE Eiciel</name>
@@ -32,4 +32,8 @@
  </screenshots>
  <url type="homepage">https://github.com/darkshram/mate-eiciel/</url>
  <update_contact>darkshram@gmail.com</update_contact>
+ <kudos>
+   <kudo>HiDpiIcon</kudo>
+   <kudo>ModernToolkit</kudo>
+ </kudos>
 </component>
