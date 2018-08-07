@@ -1,6 +1,6 @@
 bin_PROGRAMS = mate-eiciel
 mate_eiciel_CPPFLAGS = -I@top_srcdir@/lib -DDATADIR="\"$(datadir)\"" -DPKGDATADIR="\"$(pkgdatadir)\"" 
-mate_eiciel_CXXFLAGS = @GTKMM_CFLAGS@ -Wall -std=c++11 
+mate_eiciel_CXXFLAGS = @GTKMM_CFLAGS@ -Wall 
 mate_eiciel_LDFLAGS = @GTKMM_LIBS@ @ACL_LIBS@
 mate_eiciel_SOURCES = \
     acl_manager.cpp \
@@ -32,7 +32,7 @@ endif
 cajaextdir=@CAJA_EXTENSIONS_DIR@
 cajaext_LTLIBRARIES=libeiciel-caja.la
 libeiciel_caja_la_CPPFLAGS = -I@top_srcdir@/lib -DDATADIR="\"$(datadir)\"" -DPKGDATADIR="\"$(pkgdatadir)\"" 
-libeiciel_caja_la_CXXFLAGS = @GTKMM_CFLAGS@ -Wall -std=c++11 
+libeiciel_caja_la_CXXFLAGS = @GTKMM_CFLAGS@ -Wall 
 libeiciel_caja_la_LDFLAGS =  -module -avoid-version @GTKMM_LIBS@ @ACL_LIBS@
 libeiciel_caja_la_SOURCES = \
     acl_manager.cpp \
