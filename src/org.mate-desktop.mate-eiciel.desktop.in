@@ -1,5 +1,4 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=MATE Eiciel
 GenericName=Access control list editor
 GenericName[ca]=Editor de llistes de control d'accés
@@ -12,3 +11,4 @@ Icon=mate-eiciel
 Terminal=false
 Type=Application
 Categories=GTK;System;FileTools;
+X-Keyword=access control list;ACL;permissions;editor;

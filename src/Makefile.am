@@ -65,7 +65,7 @@ desktopfiles_DATA=org.mate-desktop.mate-eiciel.desktop
 
 
 appdatadir = $(datarootdir)/metainfo
-dist_appdata_DATA = mate-eiciel.appdata.xml
+dist_appdata_DATA = org.mate-desktop.mate-eiciel.appdata.xml
 
 org.mate-desktop.mate-eiciel.desktop : org.mate-desktop.mate-eiciel.desktop.in
 	sed -e "s|@DSK_VERSION@|$(VERSION)|;s|@DSK_bindir@|$(bindir)|;s|@DSK_pkgdatadir@|$(pkgdatadir)|" $< > $@
@@ -78,4 +78,4 @@ CLEANFILES += org.mate-desktop.mate-eiciel.desktop
 
 EXTRA_DIST= \
 	org.mate-desktop.mate-eiciel.desktop.in \
-	mate-eiciel.appdata.xml
+	org.mate-desktop.mate-eiciel.appdata.xml
