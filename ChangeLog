@@ -1,3 +1,17 @@
+2018-08-06 Joel Barrios <darkshram@gmail.com>
+
+    * configure.ac: Bump version to 1.20.0.
+    * Move AppStream metadata file to /usr/share/metainfo.
+    * Update es.po.
+    * Update README.md
+    * Use sys/xattr.h instead of deprecated attr/xattr.h.
+    * Require c++11 compiler.
+    * Fix invalid markup in appdata file.
+    * Add keywords to appdata file and desktop file and rename appdata file.
+    * Update and rename appdata file.
+    * Update deprecated API.
+    * Use silent rules with autotools and require automake >= 1.11
+
 2017-11-21 Joel Barrios <darkshram@gmail.com>
 
     * configure.ac: Bump version to 1.18.1.
