@@ -50,15 +50,15 @@ msgstr "Imposible abrir el archivo \""
 
 #: src/acl_manager.cpp:50 src/xattr_manager.cpp:33
 msgid "Only regular files or directories supported"
-msgstr "Sólo se admiten archivos y directorios normales"
+msgstr "Sólo se admiten archivos o directorios regulares"
 
 #: src/acl_manager.cpp:542
 msgid "Textual representation of the ACL is wrong"
-msgstr "La representación textual de la ACL es incorrecta"
+msgstr "Representación textual del ACL es incorrecta"
 
 #: src/acl_manager.cpp:564
 msgid "Default textual representation of the ACL is wrong"
-msgstr "La representación textual por defecto de la ACL es incorrecta"
+msgstr "Representación textual predeterminada del ACL es incorrecta"
 
 #: src/eiciel_xattr_window.cpp:39
 msgid "Name"
@@ -70,15 +70,15 @@ msgstr "Valor"
 
 #: src/eiciel_xattr_window.cpp:176
 msgid "Could not rename attribute name: "
-msgstr "Imposible modificar el nombre del atributo:"
+msgstr "Imposible modificar nombre del atributo:"
 
 #: src/eiciel_xattr_window.cpp:211
 msgid "Could not change attribute value: "
-msgstr "Imposible modificar el valor del atributo:"
+msgstr "Imposible modificar valor del atributo:"
 
 #: src/eiciel_xattr_window.cpp:248
 msgid "Could not remove attribute: "
-msgstr "Imposible eliminar el atributo:"
+msgstr "Imposible eliminar atributo:"
 
 #: src/eiciel_xattr_window.cpp:280 src/eiciel_xattr_window.cpp:289
 msgid "New attribute"
@@ -130,7 +130,7 @@ msgstr "Imposible modificar la entrada de ACL:"
 
 #: src/eiciel_main_controller.cpp:516
 msgid "Are you sure you want to remove all ACL default entries?"
-msgstr "¿Seguro que desea eliminar todas las entradas de ACL por defecto?"
+msgstr "¿Realmente desea eliminar todas las entradas de ACL por defecto?"
 
 #: src/eiciel_main_window.cpp:26
 msgid "<b>Current participants in ACL</b>"
@@ -142,7 +142,7 @@ msgstr "Hay permisos que no están vigentes"
 
 #: src/eiciel_main_window.cpp:33
 msgid "Remove participant from ACL"
-msgstr "Quitar participante de ACL"
+msgstr "Quitar participante del ACL"
 
 #: src/eiciel_main_window.cpp:34
 msgid "Edit default participants"
