@@ -42,7 +42,7 @@ AC_PROG_CPP
 dnl Check c++ compiler
 AC_PROG_CXX
 
-AX_CXX_COMPILE_STDCXX_11([ext],[optional])
+AX_CXX_COMPILE_STDCXX_11(,mandatory)
 
 dnl Check libtool
 LT_INIT
