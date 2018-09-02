@@ -8,13 +8,14 @@ msgstr ""
 "Project-Id-Version: Mate Eiciel 0.9\n"
 "Report-Msgid-Bugs-To: rofirrim@gmail.com\n"
 "POT-Creation-Date: 2015-09-11 16:48+0200\n"
-"PO-Revision-Date: 2010-06-02 23:22+0200\n"
-"Last-Translator: Roger Ferrer Ibáñez <rofi@ya.com>\n"
+"PO-Revision-Date: 2018-09-02 23:26+0200\n"
+"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #: src/eiciel_container.cpp:26
 msgid "<b>File name</b>"
@@ -44,15 +45,15 @@ msgstr "No s'ha pogut mostrar l'ajuda: %s"
 
 #: src/eiciel_container.cpp:123
 msgid "Choose a file or a directory"
-msgstr "Escull un fitxer o directori"
+msgstr "Trieu un fitxer o directori"
 
 #: src/eiciel_container.cpp:145
 msgid "Could not open the file \""
-msgstr "No es pot obrir el fitxer \""
+msgstr "No s'ha pogut obrir el fitxer \""
 
 #: src/acl_manager.cpp:50 src/xattr_manager.cpp:33
 msgid "Only regular files or directories supported"
-msgstr "Només es poden escollir fitxers ordinaris o directoris."
+msgstr "Només s'admeten fitxers o directoris normals"
 
 #: src/acl_manager.cpp:542
 msgid "Textual representation of the ACL is wrong"
@@ -60,7 +61,7 @@ msgstr "La representació textual de l'ACL és incorrecta"
 
 #: src/acl_manager.cpp:564
 msgid "Default textual representation of the ACL is wrong"
-msgstr "La representació textual de l'ACL per omissió és incorrecta"
+msgstr "La representació textual de l'ACL per defecte és incorrecta"
 
 #: src/eiciel_xattr_window.cpp:39
 msgid "Name"
@@ -72,15 +73,15 @@ msgstr "Valor"
 
 #: src/eiciel_xattr_window.cpp:176
 msgid "Could not rename attribute name: "
-msgstr "No es pot renombrar l'atribut: "
+msgstr "No s'ha pogut canviar el nom de l'atribut: "
 
 #: src/eiciel_xattr_window.cpp:211
 msgid "Could not change attribute value: "
-msgstr "No es pot canviar el valor de l'atribut: "
+msgstr "No s'ha pogut canviar el valor de l'atribut: "
 
 #: src/eiciel_xattr_window.cpp:248
 msgid "Could not remove attribute: "
-msgstr "No es pot eliminar l'atribut: "
+msgstr "No s'ha pogut eliminar l'atribut: "
 
 #: src/eiciel_xattr_window.cpp:280 src/eiciel_xattr_window.cpp:289
 msgid "New attribute"
@@ -88,15 +89,15 @@ msgstr "Atribut nou"
 
 #: src/eiciel_xattr_window.cpp:318
 msgid "New value"
-msgstr "Nou valor"
+msgstr "Valor nou"
 
 #: src/eiciel_xattr_window.cpp:333
 msgid "Could not add attribute: "
-msgstr "No he pogut afegir l'atribut: "
+msgstr "No s'ha pogut afegir l'atribut: "
 
 #: src/eiciel_standalone.cpp:49
 msgid "Print version information"
-msgstr "Mostra la informació de versió"
+msgstr "Imprimeix la informació de la versió"
 
 #: src/eiciel_standalone.cpp:51
 msgid "Access control list editor"
@@ -120,19 +121,19 @@ msgstr "Altres per defecte"
 
 #: src/eiciel_main_controller.cpp:328
 msgid "Could not add ACL entry: "
-msgstr "No he pogut afegir l'entrada ACL: "
+msgstr "No s'ha pogut afegir l'entrada ACL: "
 
 #: src/eiciel_main_controller.cpp:390
 msgid "Could not remove ACL entry: "
-msgstr "No es pot eliminar l'entrada ACL: "
+msgstr "No s'ha pogut eliminar l'entrada ACL: "
 
 #: src/eiciel_main_controller.cpp:487
 msgid "Could not modify ACL entry: "
-msgstr "No es pot modificar l'entrada ACL: "
+msgstr "No s'ha pogut modificar l'entrada ACL: "
 
 #: src/eiciel_main_controller.cpp:516
 msgid "Are you sure you want to remove all ACL default entries?"
-msgstr "Esteu segurs de voler eliminar les entrades per defecte de la ACL?"
+msgstr "Esteu segur que voleu eliminar totes les entrades per defecte de l'ACL?"
 
 #: src/eiciel_main_window.cpp:26
 msgid "<b>Current participants in ACL</b>"
@@ -140,7 +141,7 @@ msgstr "<b>Participants actuals a l'ACL</b>"
 
 #: src/eiciel_main_window.cpp:32
 msgid "There are ineffective permissions"
-msgstr "Hi ha permisos inefectius"
+msgstr "Hi ha permisos ineficaços"
 
 #: src/eiciel_main_window.cpp:33
 msgid "Remove participant from ACL"
@@ -180,7 +181,7 @@ msgstr "Nom del participant"
 
 #: src/eiciel_main_window.cpp:50
 msgid "Also show system participants"
-msgstr "Mostrar també participants del sistema"
+msgstr "Mostra també els participants del sistema"
 
 #: src/eiciel_main_window.cpp:112
 msgid "Entry"
