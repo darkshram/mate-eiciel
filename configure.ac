@@ -14,6 +14,8 @@ AM_INIT_AUTOMAKE([1.11 dist-bzip2])
 
 AM_SILENT_RULES([yes])
 
+ACLOCAL_AMFLAGS = ${ACLOCAL_FLAGS} -I m4 
+
 dnl gettext support
 GETTEXT_PACKAGE=mate-eiciel
 AC_SUBST([GETTEXT_PACKAGE])
@@ -42,7 +44,7 @@ AC_PROG_CPP
 dnl Check c++ compiler
 AC_PROG_CXX
 
-AX_CXX_COMPILE_STDCXX_11(,mandatory)
+AX_CXX_COMPILE_STDCXX_11
 
 dnl Check libtool
 LT_INIT
