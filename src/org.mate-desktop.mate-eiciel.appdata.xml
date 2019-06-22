@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2014 Roger Ferrer <rofirrim@gmail.com> -->
-<!-- Copyright 2017 Joel Barrios <darkshram@gmail.com> -->
+<!-- Copyright 2019 Joel Barrios <darkshram@gmail.com> -->
 <component type="desktop-application">
  <id>org.mate-desktop.mate-eiciel.desktop</id>
  <metadata_license>CC0-1.0</metadata_license>
@@ -25,20 +25,23 @@
   before using MATE Eiciel.
   </p>
  </description>
+ <translation type="gettext">mate-eiciel</translation>
  <screenshots>
   <screenshot type="default" width="1168" height="657">
    <image>http://www.alcancelibre.org/images/mate-eiciel-screenshot-appdata.png</image>
   </screenshot>
  </screenshots>
  <url type="homepage">https://github.com/darkshram/mate-eiciel/</url>
+ <url type="bugtracker">https://github.com/darkshram/mate-eiciel/issues</url>
  <update_contact>darkshram@gmail.com</update_contact>
+ <developer_name>Joel Barrios Dueñas</developer_name>
  <kudos>
    <kudo>HiDpiIcon</kudo>
    <kudo>ModernToolkit</kudo>
  </kudos>
  <keywords>
    <keyword>access control list</keyword>
-   <keyword>ACL</keyword>
+   <keyword>acl</keyword>
    <keyword>permissions</keyword>
    <keyword>editor</keyword>
  </keywords>
