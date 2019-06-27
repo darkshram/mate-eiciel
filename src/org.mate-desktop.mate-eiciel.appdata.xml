@@ -6,7 +6,9 @@
  <metadata_license>CC0-1.0</metadata_license>
  <project_license>GPL-2.0+</project_license>
  <name>MATE Eiciel</name>
+ <name xml:lang="es">MATE Eiciel</name>
  <summary>Tool to manipulate ACL entries</summary>
+ <summary xml:lang="es">Herramienta para manipular entradas de ACL</summary>
  <description>
   <p>
    MATE Eiciel is a standalone tool and a Caja plugin to graphically
@@ -25,20 +27,44 @@
   before using MATE Eiciel.
   </p>
  </description>
+ <description xml:lang="es">
+  <p>
+   MATE Eicies es una herramienta independiente y complemento para Caja
+   para editar de manea gráfica las listas de control de accedo (ACL) de
+   tus archivos. Los ACL permiten establecer los pemisos de acceso de
+   manera más precisa que los permisos tradiconales POSIX para usuario,
+   grupo y otros (permisos UGO). Está basado sobre Eiciel por Roger
+   Ferrer.
+  </p>
+  <p>
+   MATE Eiciel también permite editar los atributos extendidos de los
+   archivos y directorios si el sistema de archivos tiene soporte para
+   tal.
+  </p>
+  <p>
+   No todos lso sistema de archivos tiene soporte para ACL y atributos
+   extendidos. Y aún para los que tien soporte, éste debe estar habilitado
+   (por el adminsitrador del sistema) antes de poder utilizar MATE Eiciel.
+  </p>
+ </description>
  <translation type="gettext">mate-eiciel</translation>
  <screenshots>
   <screenshot type="default" width="1168" height="657">
-   <image>http://www.alcancelibre.org/images/mate-eiciel-screenshot-appdata.png</image>
+   <image>http://www.alcancelibre.org/images/mate-eiciel-screenshot-appdata-fs8.png</image>
   </screenshot>
  </screenshots>
  <url type="homepage">https://github.com/darkshram/mate-eiciel/</url>
  <url type="bugtracker">https://github.com/darkshram/mate-eiciel/issues</url>
- <update_contact>darkshram@gmail.com</update_contact>
+ <update_contact>darkshram_AT_gmail.com</update_contact>
  <developer_name>Joel Barrios Dueñas</developer_name>
  <kudos>
    <kudo>HiDpiIcon</kudo>
    <kudo>ModernToolkit</kudo>
  </kudos>
+ <categories>
+   <category>Utility</category>
+   <category>Sistem</category>
+ </categories>
  <keywords>
    <keyword>access control list</keyword>
    <keyword>acl</keyword>
